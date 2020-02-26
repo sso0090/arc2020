@@ -2,12 +2,21 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"MObject": "00_core.ipynb",
+index = {"MObject": "00_core_is.ipynb",
          "MObjectContinuous": "00_core.ipynb",
          "MObjectDiscrete": "00_core.ipynb",
-         "MObjectConnected": "00_core.ipynb"}
+         "MObjectConnected": "00_core.ipynb",
+         "MModel": "00_core_is.ipynb",
+         "MAObject": "00_core_rs_ref.ipynb",
+         "MProperty": "00_core_is.ipynb",
+         "MMethod": "00_core_is.ipynb",
+         "MRelation": "00_core_is.ipynb",
+         "MThings": "00_core_rs_ref.ipynb",
+         "MAThing": "00_core_rs_ref.ipynb"}
 
-modules = ["core.py"]
+modules = ["rs/core.py",
+           "is/core.py",
+           "rs/ref.py"]
 
 doc_url = "https://fastai.github.io/arc2020/"
 
